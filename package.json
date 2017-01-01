@@ -1,0 +1,33 @@
+{
+  "name": "udpws",
+  "version": "0.5.0",
+  "description": "udp server/client in style of ws/uws websockets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec test/int/* && istanbul check-coverage --statements 60"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krystianity/udpws.git"
+  },
+  "keywords": [
+    "udp",
+    "ws",
+    "websockets",
+    "uws",
+    "udpws",
+    "like"
+  ],
+  "author": "Christian Fröhlingsdorf <chris@5cf.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krystianity/udpws"
+  },
+  "homepage": "https://github.com/krystianity/udpws",
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "mocha": "~1.18.2",
+    "istanbul": "~0.4.2"
+  }
+}
