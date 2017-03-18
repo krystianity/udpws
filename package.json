@@ -1,6 +1,6 @@
 {
   "name": "udpws",
-  "version": "0.5.0",
+  "version": "1.0.1",
   "description": "udp server/client in style of ws/uws websockets.",
   "main": "index.js",
   "scripts": {
